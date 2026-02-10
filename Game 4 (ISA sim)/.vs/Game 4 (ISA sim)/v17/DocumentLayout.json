@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\montaser.hijazi\\Desktop\\Visual Studio Projekt\\Game 4 (ISA sim)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9503A384-DF0F-47BB-BC57-186D4E8B2D2D}|Game 4 (ISA sim)\\Game 4 (ISA sim).csproj|c:\\users\\montaser.hijazi\\desktop\\visual studio projekt\\game 4 (isa sim)\\game 4 (isa sim)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9503A384-DF0F-47BB-BC57-186D4E8B2D2D}|Game 4 (ISA sim)\\Game 4 (ISA sim).csproj|solutionrelative:game 4 (isa sim)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9503A384-DF0F-47BB-BC57-186D4E8B2D2D}|Game 4 (ISA sim)\\Game 4 (ISA sim).csproj|C:\\Users\\montaser.hijazi\\Desktop\\Visual Studio Projekt\\Game 4 (ISA sim)\\game 4 (isa sim)\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9503A384-DF0F-47BB-BC57-186D4E8B2D2D}|Game 4 (ISA sim)\\Game 4 (ISA sim).csproj|solutionrelative:game 4 (isa sim)\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\montaser.hijazi\\Desktop\\Visual Studio Projekt\\Game 4 (ISA sim)\\Game 4 (ISA sim)\\Test.cs",
+              "RelativeDocumentMoniker": "Game 4 (ISA sim)\\Test.cs",
+              "ToolTip": "C:\\Users\\montaser.hijazi\\Desktop\\Visual Studio Projekt\\Game 4 (ISA sim)\\Game 4 (ISA sim)\\Test.cs",
+              "RelativeToolTip": "Game 4 (ISA sim)\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T10:28:03.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\montaser.hijazi\\Desktop\\Visual Studio Projekt\\Game 4 (ISA sim)\\Game 4 (ISA sim)\\Program.cs",
+              "RelativeDocumentMoniker": "Game 4 (ISA sim)\\Program.cs",
+              "ToolTip": "C:\\Users\\montaser.hijazi\\Desktop\\Visual Studio Projekt\\Game 4 (ISA sim)\\Game 4 (ISA sim)\\Program.cs",
+              "RelativeToolTip": "Game 4 (ISA sim)\\Program.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAgwN8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T09:55:20.036Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

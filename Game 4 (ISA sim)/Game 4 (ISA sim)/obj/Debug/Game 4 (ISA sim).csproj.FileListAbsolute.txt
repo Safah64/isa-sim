@@ -1,0 +1,8 @@
+C:\Users\montaser.hijazi\Desktop\Visual Studio Projekt\Game 4 (ISA sim)\Game 4 (ISA sim)\obj\Debug\Game 4 (ISA sim).csproj.AssemblyReference.cache
+C:\Users\montaser.hijazi\Desktop\Visual Studio Projekt\Game 4 (ISA sim)\Game 4 (ISA sim)\obj\Debug\Game 4 (ISA sim).csproj.CoreCompileInputs.cache
+C:\Users\montaser.hijazi\Desktop\Visual Studio Projekt\Game 4 (ISA sim)\Game 4 (ISA sim)\bin\Debug\Game 4 (ISA sim).exe.config
+C:\Users\montaser.hijazi\Desktop\Visual Studio Projekt\Game 4 (ISA sim)\Game 4 (ISA sim)\bin\Debug\Game 4 (ISA sim).exe
+C:\Users\montaser.hijazi\Desktop\Visual Studio Projekt\Game 4 (ISA sim)\Game 4 (ISA sim)\bin\Debug\Game 4 (ISA sim).pdb
+C:\Users\montaser.hijazi\Desktop\Visual Studio Projekt\Game 4 (ISA sim)\Game 4 (ISA sim)\obj\Debug\Game 4 (ISA sim).exe
+C:\Users\montaser.hijazi\Desktop\Visual Studio Projekt\Game 4 (ISA sim)\Game 4 (ISA sim)\obj\Debug\Game 4 (ISA sim).pdb
+C:\Users\montaser.hijazi\Desktop\Visual Studio Projekt\Game 4 (ISA sim)\Game 4 (ISA sim)\obj\Debug\Game 4 (ISA sim).exe.config
