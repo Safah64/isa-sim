@@ -14,31 +14,31 @@ namespace Game_4__ISA_sim_
         static void Main(string[] args)
         {
             PlayMusic();
-            Test test = new Test();
+            
             string name = "Isa";
             Console.WriteLine("Hello, " + name + "!");
-            Console.WriteLine("you need to go and make friends");
-            Console.WriteLine("Press any key to start...");
+            Console.WriteLine("\nyou need to go and make friends");
+            Console.WriteLine("\nPress any key to start...");
             Console.ReadKey(); //waits for any key press
             Console.Clear(); //clears the console
 
-            Console.WriteLine("you need to choose where to go");
+            Console.WriteLine("\nyou need to choose where to go");
             Console.WriteLine("1. School");
             Console.WriteLine("2. Park");
             string choice = Console.ReadLine();
 
             if (choice == "1")
             {
-                Console.WriteLine("You went to school");
+                Console.WriteLine("\nYou went to school");
                 School();
             }
             else if (choice == "2")
             {
-                Console.WriteLine("You went to the park, and its raining no ones there");
+                Console.WriteLine("\nYou went to the park, and its raining no ones there");
             }
             else
             {
-                Console.WriteLine("Invalid choice. Please restart the game.");
+                Console.WriteLine("\nInvalid choice. Please restart the game.");
             }
 
         }
@@ -46,8 +46,8 @@ namespace Game_4__ISA_sim_
         static void School()
         {
             PlayMusic();
-            Console.WriteLine("At school, you see many students.");
-            Console.WriteLine("Do you want to approach someone?");
+            Console.WriteLine("\nAt school, you see many students.");
+            Console.WriteLine("\nDo you want to approach someone?");
             Console.WriteLine("1. Yes");
             Console.WriteLine("2. No");
 
@@ -55,16 +55,16 @@ namespace Game_4__ISA_sim_
             if (choice == "1")
             {
                 Console.Clear();
-                Console.WriteLine("You see a student reading and a student on his phone.");
-                Console.WriteLine("Who do you want to approach?");
+                Console.WriteLine("\nYou see a student reading and a student on his phone.");
+                Console.WriteLine("\nWho do you want to approach?");
                 Console.WriteLine("1. Student reading");
                 Console.WriteLine("2. Student on the phone");
                 string studentChoice = Console.ReadLine();
                 if (studentChoice == "1")
                 {
                     PlayMusic();
-                    Console.WriteLine("You approached the student reading.");
-                    Console.WriteLine("The students name is Sobhi.");
+                    Console.WriteLine("\nYou approached the student reading.");
+                    Console.WriteLine("\nThe students name is Sobhi.");
                     Console.WriteLine("1. Ask what is he reading.");
                     Console.WriteLine("2. Start a conversation about school.");
                     Console.WriteLine("3. Start a conversation about girls");
@@ -77,6 +77,7 @@ namespace Game_4__ISA_sim_
                         string convoChoice2 = Console.ReadLine();
                         if (convoChoice2 == "1")
                         {
+                            PlayMusic();
                             Console.WriteLine("Sobhi is happy to help you! You both become friends.");
                             GymDay();
                         }
@@ -105,7 +106,7 @@ namespace Game_4__ISA_sim_
                 {
                     Console.Clear();
                     PlayMusic();
-                    Console.WriteLine("You approached the student on the phone.");
+                    Console.WriteLine("\nYou approached the student on the phone.");
                     Console.WriteLine("The students name is Alex.");
                     Console.WriteLine("1. Start a conversation about video games.");
                     Console.WriteLine("2. Start a conversation about school.");
@@ -145,9 +146,9 @@ namespace Game_4__ISA_sim_
             PlayMusic();
             Console.WriteLine("You have 1 friend");
             Console.WriteLine("------------------------------------------------------------------------------------------");
-            Console.WriteLine("Day 2: you are in the gym");
+            Console.WriteLine("\nDay 2: you are in the gym");
             Console.WriteLine("----------------------------------------------------------------------------------------------");
-            Console.WriteLine("Do you want to invite your friend Sobhi?");
+            Console.WriteLine("\nDo you want to invite your friend Sobhi?");
             Console.WriteLine("1. Yes");
             Console.WriteLine("2. No");
             string choice = Console.ReadLine();
@@ -155,18 +156,18 @@ namespace Game_4__ISA_sim_
             {
                 PlayMusic();
                 Console.WriteLine("Sobhi came the gym.");
-                Console.WriteLine("Sobhi is happy to see you! You both have a great time working out together.");
-                Console.WriteLine("Build your way to a stronger conection");
+                Console.WriteLine("\nSobhi is happy to see you! You both have a great time working out together.");
+                Console.WriteLine("\nBuild your way to a stronger conection");
                 Console.WriteLine("1. ask Sobhi about hes hobbis.");
                 Console.WriteLine("2. ask Sobhi about hes favorit movie.");
                 string convoChoice = Console.ReadLine();
                 if (convoChoice == "1")
                 {
-                    PlayMusic();
                     Console.Clear();
-                    Console.WriteLine("Sobhi loves to play soccer!.");
+                    PlayMusic();
+                    Console.WriteLine("\nSobhi loves to play soccer!.");
                     Console.WriteLine("--------------------------------------------------------------------------------------");
-                    Console.WriteLine("Sobhi asks you about your hobbis");
+                    Console.WriteLine("\nSobhi asks you about your hobbis");
                     Console.WriteLine("1. I like to play soccer too!");
                     Console.WriteLine("2. I like to play video games.");
                     string convoChoice2 = Console.ReadLine();
@@ -174,7 +175,7 @@ namespace Game_4__ISA_sim_
                     {
                         PlayMusic();
                         Console.WriteLine("Sobhi is excited to find out you also like soccer!.");
-                        Console.WriteLine("Congratulations! You are on your way to building strong friendships.");
+                        Console.WriteLine("\nCongratulations! You are on your way to building strong friendships.");
                         End();
                     }
                     else if (convoChoice2 == "2")
@@ -191,24 +192,24 @@ namespace Game_4__ISA_sim_
                 {
                     Console.Clear();
                     PlayMusic();
-                    Console.WriteLine("Sobhi loves the movie Inception!.");
+                    Console.WriteLine("\nSobhi loves the movie Inception!.");
                     Console.WriteLine("--------------------------------------------------------------------------------------");
-                    Console.WriteLine("Sobhi asks you about your favorite movie");
+                    Console.WriteLine("\nSobhi asks you about your favorite movie");
                     Console.WriteLine("1. I like The Dark Knight!");
                     Console.WriteLine("2. I like White checks.");
                     string convoChoice2 = Console.ReadLine();
                     if (convoChoice2 == "1")
                     {
                         PlayMusic();
-                        Console.WriteLine("Console.WriteLine(\"Sobhi likes your choice in movies");
-                        Console.WriteLine("Congratulations! You are on your way to building strong friendships.");
+                        Console.WriteLine("\nConsole.WriteLine(\"Sobhi likes your choice in movies");
+                        Console.WriteLine("\nCongratulations! You are on your way to building strong friendships.");
                         End();
                     }
                     else if (convoChoice2 == "2")
                     {
                         PlayMusic();
-                        Console.WriteLine("Sobhi likes your choice in movies");
-                        Console.WriteLine("Congratulations! You are on your way to building strong friendships.");
+                        Console.WriteLine("\nSobhi likes your choice in movies");
+                        Console.WriteLine("\nCongratulations! You are on your way to building strong friendships.");
                         End();
                     }
                     else
@@ -272,7 +273,7 @@ namespace Game_4__ISA_sim_
                         if (convoChoice3 == "1")
                         {
                             Console.WriteLine("Alex is happy to change the subject!.");
-                            Console.WriteLine("Congratulations! You are on your way to building strong friendships.");
+                            Console.WriteLine("\nCongratulations! You are on your way to building strong friendships.");
                             End();
                         }
                         else if (convoChoice3 == "2")
@@ -291,7 +292,7 @@ namespace Game_4__ISA_sim_
                         Console.Clear();
                         Console.WriteLine("Sobhi is interested in video games.");
                         Console.WriteLine("--------------------------------------------------------------------------------------");
-                        Console.WriteLine("Congratulations! You are on your way to building strong friendships.");
+                        Console.WriteLine("\nCongratulations! You are on your way to building strong friendships.");
                         Console.WriteLine("--------------------------------------------------------------------------------------");
                     }
                     else
@@ -301,6 +302,7 @@ namespace Game_4__ISA_sim_
                 }
                 else if (convoChoice == "2")
                 {
+                    PlayMusic();
                     Console.Clear();
                     Console.WriteLine("Alex loves the movie Inception!.");
                     Console.WriteLine("--------------------------------------------------------------------------------------");
@@ -311,14 +313,14 @@ namespace Game_4__ISA_sim_
                     string convoChoice2 = Console.ReadLine();
                     if (convoChoice2 == "1")
                     {
-                        Console.WriteLine("Console.WriteLine(\"Alex likes your choice in movies");
-                        Console.WriteLine("Congratulations! You are on your way to building strong friendships.");
+                        Console.WriteLine("Alex likes your choice in movies");
+                        Console.WriteLine("\nCongratulations! You are on your way to building strong friendships.");
                         End();
                     }
                     else if (convoChoice2 == "2")
                     {
                         Console.WriteLine("Alex likes your choice in movies");
-                        Console.WriteLine("Congratulations! You are on your way to building strong friendships.");
+                        Console.WriteLine("\nCongratulations! You are on your way to building strong friendships.");
                         End();
                     }
                     else
@@ -335,19 +337,19 @@ namespace Game_4__ISA_sim_
             }
         }
         static void End()
-        {   
+        {   PlayMusic();
             Console.Clear();
             Console.WriteLine("--------------------------------------------------------------------------------------");
             Console.WriteLine("You learnd how to make a friend and how to build a stronger conection");
             Console.WriteLine("--------------------------------------------------------------------------------------");
-            Console.WriteLine("Congratulations! You have completed the game.");
+            Console.WriteLine("\nCongratulations! You have completed the game.");
             Console.WriteLine("now you can go out and make friends in real life!");
         }
 
         static void PlayMusic()
         {
-            int[] notes = { 800, 1000, 1200, 1000, 800 };
-            int duration = 200;
+            int[] notes = { 800, 1000, 1200, 1000, 900 };
+            int duration = 100;
 
             foreach (int note in notes)
             {
